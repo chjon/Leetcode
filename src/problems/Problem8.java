@@ -8,6 +8,13 @@ public class Problem8 {
 
 	// Initial solution ------------------------------------------------------------------------------------------------
 
+	/**
+	 * Simplified state machine solution
+	 * The idea is to build the value from left to right
+	 *
+	 * @param str the string to convert to an integer
+	 * @return the integer represented by the string
+	 */
 	public int myAtoi(String str) {
 		str = str.trim();
 

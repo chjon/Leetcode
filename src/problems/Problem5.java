@@ -8,6 +8,13 @@ public class Problem5 {
 
 	// Initial solution ------------------------------------------------------------------------------------------------
 
+	/**
+	 * Brute-force solution
+	 * The idea is to check the length of every palindrome centred at each index
+	 *
+	 * @param s the string for which to find the longest palindrome
+	 * @return the longest palindromic substring of s
+	 */
 	public String longestPalindrome(String s) {
 		String longest = "";
 
